@@ -1,6 +1,12 @@
 # WaterWaveView
 
-## 
+## 说明
+水波纹进度控件，可自定义颜色和进度等
+
+## 效果图
+ ![](imgs/ic_wave.gif)
+
+## Attributes
 
 ## How to use
 To get a Git project into your build:   
