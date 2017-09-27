@@ -20,7 +20,7 @@
 
 ## Attributes
 |attr 属性|description 描述|
-| - | - |
+| - | :- |
 |waveHeight|波浪高度|
 |wavePerWidth|波浪宽度（1/4周期）|
 |waveMoveDistance|波浪移动距离|
