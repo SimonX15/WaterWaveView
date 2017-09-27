@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaterWaveView">
+        <attr name="waveHeight" format="dimension"/>
+        <attr name="wavePerWidth" format="dimension"/>
+        <attr name="waveMoveDistance" format="dimension"/>
+        <attr name="bgColor" format="color"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="waveColor" format="color"/>
+        <attr name="progress" format="integer"/>
+        <attr name="progressTextColor" format="color"/>
+        <attr name="progressTextSize" format="dimension"/>
+        <attr name="autoIncrement" format="boolean"/>
+    </declare-styleable>
+</resources>
