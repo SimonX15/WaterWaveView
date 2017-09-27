@@ -2,9 +2,6 @@ package com.app.simon.waterwaveview
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
-import org.jetbrains.anko.doAsync
-import org.jetbrains.anko.uiThread
 
 class MainActivity : AppCompatActivity() {
 
@@ -25,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         arrayList.add(68)
         arrayList.add(82)
         arrayList.add(100)
-        doAsync {
+        /*doAsync {
             arrayList.forEach {
                 val progress = it
                 uiThread {
@@ -33,6 +30,6 @@ class MainActivity : AppCompatActivity() {
                 }
                 Thread.sleep(2000)
             }
-        }
+        }*/
     }
 }

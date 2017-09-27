@@ -3,7 +3,6 @@ package com.app.simon.lib
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
-import android.util.Log
 import android.view.View
 import org.jetbrains.anko.sp
 
@@ -229,8 +228,6 @@ class WaterWaveView @JvmOverloads constructor(context: Context, val attrs: Attri
             }
             //每次波形的平移量 40
             startPoint!!.x += waveMoveDistance
-
-            Log.i(TAG, "startPoint: $startPoint")
 
             if (autoIncrement) {
                 if (progress >= 100) {
