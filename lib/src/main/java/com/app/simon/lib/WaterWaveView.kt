@@ -1,16 +1,15 @@
-package com.app.simon.waterrippleprogressview
+package com.app.simon.lib
 
 import android.content.Context
 import android.graphics.*
 import android.util.AttributeSet
 import android.util.Log
 import android.view.View
-import com.app.simon.lib.R
 import org.jetbrains.anko.sp
 
 
 /**
- * desc: 水波纹View
+ * desc: 自定义水波纹进度View
  * date: 2017/9/26
 
  * @author xw
